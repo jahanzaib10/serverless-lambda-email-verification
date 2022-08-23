@@ -1,0 +1,20 @@
+{
+  "name": "app-api",
+  "version": "1.0.0",
+  "description": "Serverless Lambda for email verification",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app-api"
+  ],
+  "author": "jahanzaib10",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6"
+  }
+}
